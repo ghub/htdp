@@ -1,0 +1,33 @@
+Preface
+
+Approaches to teaching
+    "tinker until it works"
+    "good programming"
+
+Systematic program design
+    Design recipes
+        Complete programs
+            GUI programs
+            Batch programs
+        Functions
+            Atomic forms of data
+            Enumerations of different kinds of data
+            Data that compounds other data in a fixed manner
+            Finite but arbitrarily large data
+    Iterative refinement
+
+Design process
+    1. From problem analysis to data definitions
+    2. Signature, purpose statement, header
+    3. Functional examples
+    4. Function template
+    5. Function definition
+    6. Testing
+
+DrRacket and the teaching languages
+    "Beginning Student Language" BSL
+    "Intermediate Student Language" *SL
+
+Skills that transfer
+    Mathematics, especially (pre)algebra and geometry
+    Analytical reading and writing skills
