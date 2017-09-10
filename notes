@@ -1,4 +1,5 @@
 Preface
+=======
 
 Approaches to teaching
     "tinker until it works"
@@ -31,3 +32,82 @@ DrRacket and the teaching languages
 Skills that transfer
     Mathematics, especially (pre)algebra and geometry
     Analytical reading and writing skills
+
+
+Prologue: How to Program
+========================
+
+DrRacket
+    Definitions area
+        Edit
+        Save
+    Interactions area
+        Prompt
+
+    Programs
+        Expressions
+
+    Inexact number
+        #i
+
+Arithmatic and arithmatic
+    Nested arithmatic
+    BSL arithmatic
+
+    Number
+        + 1- * /
+        sqr expt sin cos
+    String
+        string-append
+        string-length
+        string->number
+        number->string
+    Boolean
+        #true #false
+        and or not
+        > < =
+        >= <=
+        string=?
+    Image
+
+    Teachpacks
+        2htdp/image
+            image-width
+            image-height
+            circle
+            rectangle
+            square
+            overlay
+            place-image
+            empty-scene
+
+Inputs and output
+    Function
+        Definition
+            (define (FunctionName InputName) BodyExpression)
+        Application
+            (FunctionName ArgumentExpression)
+
+    2htdp/universe
+        animate
+
+Many ways to compute
+    Conditional expression
+        (cond
+            [ConditionalExpression1 ResultExpression1]
+            [ConditionalExpression2 ResultExpression2]
+            ...
+            [ConditionalExpressionN ResultExpressionN])
+
+One program, many definitions
+    Constant definitions
+        (define Name Expression)
+    Refactoring
+    Line comments
+    Magic numbers
+
+You are a programmer now
+    Programs are for other people to read.
+    Programs reflects the problems statements and its important concepts.
+    Programs comes with a concise self-description.
+    Good programming is about solving problems systematically and conveying the system within the code.
