@@ -111,3 +111,50 @@ You are a programmer now
     Programs reflects the problems statements and its important concepts.
     Programs comes with a concise self-description.
     Good programming is about solving problems systematically and conveying the system within the code.
+
+
+Fixed-Size Data
+===============
+
+    Programming language
+        Language of data
+        Language of operations on data
+
+1 Arithmatic
+
+    It is critical for a programmer to know how the chosen language calculates.
+
+    Atomic data of BSL
+        Numbers
+        Strings
+        Images
+        Boolean values
+
+    Primitive operations or pre-defined operations
+
+1.1 The Arithmatic of Numbers
+
+    Prefix notation
+
+    Numbers
+        Natural numbers
+        Integers
+        Rational numbers
+        Real numbers
+        Complex numbers
+
+    Precision of numbers
+        Exact numbers
+        Inexact numbers: #i prefix
+
+1.2 The Arithmatic of Strings
+
+    string-append
+
+1.3 Mixing It Up
+
+    string-length
+    string-ith
+    number->string
+    substring
+
