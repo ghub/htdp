@@ -3,6 +3,7 @@
 ; Clearly this expression creates a shorter string than the given one. Which values for i are legitimate?
 
 #lang racket
+
 (define str "helloworld")
 (define i 5)
 (string-append (substring str 0 i) (substring str (add1 i)))

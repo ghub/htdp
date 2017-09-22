@@ -158,3 +158,23 @@ Fixed-Size Data
     number->string
     substring
 
+1.4 The Arithmatic of Images
+
+    Primitive operations
+        Creation
+            line
+            circle
+            ellipse
+            triangle
+            rectangle
+            text
+        Properties
+            image-width
+            image-height
+        Composition (need to understand anchor point)
+            overlay
+            overlay/xy
+            overlay/align
+            empty-scene
+            place-image
+            scene+line
