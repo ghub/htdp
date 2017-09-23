@@ -178,3 +178,14 @@ Fixed-Size Data
             empty-scene
             place-image
             scene+line
+
+1.5 The Arithmatic of Booleans
+
+    Booleans
+        #true
+        #false
+
+    Operations
+        or
+        and
+        not
