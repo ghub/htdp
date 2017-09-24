@@ -189,3 +189,18 @@ Fixed-Size Data
         or
         and
         not
+
+1.6 Mixing It Up with Booleans
+
+    Conditionals
+        if
+
+    =
+    <
+    <=
+    >
+    >=
+
+    string=?
+    string<=?
+    string>=?
