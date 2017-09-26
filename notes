@@ -204,3 +204,20 @@ Fixed-Size Data
     string=?
     string<=?
     string>=?
+
+1.7 Predicates: Know Thy Data
+
+    Predicates
+
+    number?
+    string?
+    image?
+    boolean?
+
+    integer?
+    rational?
+    real?
+    complex?
+
+    exact?
+    inexact?

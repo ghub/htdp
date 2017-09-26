@@ -12,9 +12,9 @@
 (require 2htdp/image)
 
 (define (find-one-of file1 file2)
-    (if (file-exists? file1)
-        file1
-        file2))
+  (if (file-exists? file1)
+    file1
+    file2))
 
 (define cat (bitmap/file (find-one-of "icons/cat1.png" "../icons/cat1.png")))
 (if (<= (image-width cat) (image-height cat)) "tall" "wide")
