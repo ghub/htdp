@@ -255,3 +255,11 @@ Fixed-Size Data
             parameters are the same.
         Computes the value of the body of the function, with all
             parameters replaced by the corresponding argument values.
+
+2.3 Composing Functions
+
+    Composition
+        main definition or function
+        auxiliary or helper functions
+
+    Define one function per task.
