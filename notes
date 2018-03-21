@@ -222,3 +222,28 @@ Fixed-Size Data
 
     exact?
     inexact?
+
+2 Functions and Programs
+
+    Arithmatic
+    Algebra
+        Variable
+        Function definition
+        Function application
+        Function composition
+
+2.1 Functions
+
+    Program
+        Definitions
+            Constant definitions
+                (define Variable Expression)
+            Function definitions
+                (define (FunctionName Variable ... Variale)
+                    Expression)
+                Inputs (function header, arguments or parameters)
+                    unary
+                    binary
+                    ternary
+                Outputs (function body)
+
