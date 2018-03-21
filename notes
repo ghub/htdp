@@ -263,3 +263,14 @@ Fixed-Size Data
         auxiliary or helper functions
 
     Define one function per task.
+
+2.4 Global Constants
+
+    Global constant
+        Global variable (name)
+        Constant definition (right hand side)
+            Literal constant
+            Computed constant
+
+    For every constant mentioned in a problem statement,
+        introduce one constant definition.
