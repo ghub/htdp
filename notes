@@ -247,3 +247,11 @@ Fixed-Size Data
                     ternary
                 Outputs (function body)
 
+2.2 Computing
+
+    Function application
+        Determine the values of argument expressions.
+        Check that the number of arguments and number of function
+            parameters are the same.
+        Computes the value of the body of the function, with all
+            parameters replaced by the corresponding argument values.
