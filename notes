@@ -365,3 +365,22 @@ Fixed-Size Data
 
     It is imperative that you have a solid understanding of the full possibilities
         of whatever computer languages are around and suitable.
+
+3.4 From Functions to Programs
+
+    It is always important to design every function systematically.
+    We recommend keeping around a list of needed functions or a wish list.
+        Each entry on a wish list should consist of three things:
+            a meaningful name for the function,
+            a signature, and
+            a purpose statement.
+        For the design of a batch program,
+            put the main function on the wish list and start designing it.
+        For the design of an interactive program, you can put
+            the event handlers,
+            the stop-when function, and
+            the scene-rendering function on the list.
+        As long as the list isn’t empty, pick a wish and design the function.
+        If you discover during the design that you need another function,
+            put it on the list.
+        When the list is empty, you are done.
