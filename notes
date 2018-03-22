@@ -309,3 +309,47 @@ Fixed-Size Data
               [to-draw render]
               [stop-when end?]
               ...)
+
+3 How to Design Programs
+
+    Programming needs a language, a notation for communicating what we wish to compute.
+    It is critical to learn how to get from a problem statement to a program.
+
+3.1 Designing Functions
+
+    Information and Data
+
+        Domain
+            Information (interprete data)
+        Program
+            Data (represent information)
+
+        Data definitions
+            It names a collection of data (a class) using a meaningful word.
+            It informs readers how to create elements of this class and how to decide
+                whether some arbitrary piece of data belongs to the collection.
+
+    The Design Process
+
+        Design an individual function
+
+            1. Express how you wish to represent information as data.
+            2. Write down a signature, a statement of purpose, and a function header.
+                A function signature is a comment that tells the readers of your design
+                    how many inputs your function consumes,
+                    from which classes they are drawn,
+                    and what kind of data it produces.
+                A purpose statement is a comment that summarizes the purpose of the
+                    function in a single line.
+                A header is a simplistic function definition, also called a stub.
+            3. Illustrate the signature and the purpose statement with some functional examples.
+            4. The next step is to take inventory, to understand what are the givens
+                and what we need to compute.
+            5. It is now time to code.
+            6. The last step of a proper design is to test the function on the examples
+                that you worked out before. If the result doesn’t match the expected output,
+                consider the following three possibilities:
+                    a. You miscalculated and determined the wrong expected output for
+                        some of the examples.
+                    b. Alternatively, the function definition computes the wrong result.
+                    c. Both the examples and the function definition are wrong.
