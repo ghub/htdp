@@ -274,3 +274,38 @@ Fixed-Size Data
 
     For every constant mentioned in a problem statement,
         introduce one constant definition.
+
+2.5 Programs
+
+    From a coding perspective
+        Functions
+            Main function composes other functions
+        Constant definitions
+
+    From the perspective of launching a program
+        Batch program
+            consumes all of its inputs and computes its results
+        Interactive program (event driven)
+            Iterate
+                consumes some inputs (events and event handlers)
+                compute
+                produces some output
+
+    Batch programs
+        2htdp/batch-io
+            read-file
+            write-file
+            'stdin
+            'stdout
+
+    Interactive programs
+        2htdp/universe
+            big-bang
+
+            (big-bang cw0
+              [on-tick tock]
+              [on-key ke-h]
+              [on-mouse me-h]
+              [to-draw render]
+              [stop-when end?]
+              ...)
