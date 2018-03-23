@@ -384,3 +384,8 @@ Fixed-Size Data
         If you discover during the design that you need another function,
             put it on the list.
         When the list is empty, you are done.
+
+3.5 On Testing
+
+    check-expect
+    unit testing
