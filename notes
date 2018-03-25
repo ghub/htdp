@@ -389,3 +389,23 @@ Fixed-Size Data
 
     check-expect
     unit testing
+
+3.6 Designing World Programs
+
+    1. For all those properties of the world that remain the same over time and
+        are needed to render it as an Image, introduce constants.
+
+        a. “Physical” constants describe general attributes of objects in the
+            world, such as the speed or velocity of an object, its color, its
+            height, its width, its radius, and so forth.
+        b. Graphical constants are images of objects in the world.
+
+    2. Those properties that change over time—in reaction to clock ticks,
+        keystrokes, or mouse actions—give rise to the current state of the
+        world.
+
+    3. Once you have a data representation for the state of the world, you need
+        to design a number of functions so that you can form a valid big-bang
+        expression.
+
+    4. Finally, you need a main function.
