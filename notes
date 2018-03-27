@@ -411,3 +411,25 @@ Fixed-Size Data
     4. Finally, you need a main function.
 
 3.7 Virtual Pet Worlds
+
+4 Intervals, Enumerations, and Itemizations
+
+4.1 Programming with Conditionals
+
+    (cond
+      [ConditionExpression1 ResultExpression1]
+      [ConditionExpression2 ResultExpression2]
+      ...
+      [else DefaultResultExpression])
+
+    A cond line is also known as a cond clause.
+
+    Brackets make cond lines stand out.
+    It is fine to use ( ... ) in place of [ ... ].
+
+    We always use cond for situations when we wish to remind the reader of our
+        code that some distinct situations come directly from data definitions.
+
+    It is better to formulate the function definition with an else clause, if
+        you know that you want the exact opposite—called the complement—of all
+        previous conditions in a cond.
