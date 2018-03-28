@@ -436,4 +436,8 @@ Fixed-Size Data
 
 4.2 Computing Conditionally
 
+4.3 Enumerations
 
+    Enumeration is a data representation in which every possibility is listed.
+
+    Enumeration defines a collection of data as a finite number of pieces of data.
