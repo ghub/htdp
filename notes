@@ -5,6 +5,10 @@ Approaches to teaching
     "tinker until it works"
     "good programming"
 
+Good programming
+    Systematic program design
+    Systematically designed programs
+
 Systematic program design
     Design recipes
         Complete programs
@@ -70,7 +74,7 @@ Arithmatic and arithmatic
         string=?
     Image
 
-    Teachpacks
+    Libraries/Teachpacks
         2htdp/image
             image-width
             image-height
@@ -78,8 +82,8 @@ Arithmatic and arithmatic
             rectangle
             square
             overlay
-            place-image
             empty-scene
+            place-image
 
 Inputs and output
     Function
